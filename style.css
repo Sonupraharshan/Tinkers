@@ -31,13 +31,10 @@ body {
   width: 650px;
   height: 650px;
   border-radius: 50%;
-  border: 5px solid rgba(255, 255, 255, 0.7);
+  border: 5px solid rgba(255, 255, 255, 0.26);
   border-top-color: transparent;
   position: absolute;
   animation: rotate 2s linear infinite;
-}
-#content {
-  color: aliceblue;
 }
 .letter {
   border-radius: 40%;
@@ -51,4 +48,46 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+#menu-container {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-btn {
+  position: absolute;
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+}
+
+#hotTilesBtn {
+  top: 11.5%;
+  left: 59%;
+  width: 115px;
+}
+#marioHistoryBtn {
+  top: 17%;
+  left: 68%;
+  width: 118px;
+}
+#downloadsBtn {
+  top: 29.5%;
+  left: 76.5%;
+  width: 72px;
+}
+#forumsBtn {
+  top: 45%;
+  left: 80.5%;
+  width: 35px;
+}
+#signUpBtn {
+  top: 89.8%;
+  left: 27%;
+  width: 250px;
+}
+#currentBtn {
+  top: 92.7%;
+  left: 63.7%;
+  width: 215px;
 }
