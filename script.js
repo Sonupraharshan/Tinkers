@@ -8,17 +8,6 @@ window.onload = function () {
   }, 2000);
 };
 
-let progress = 0;
-const progressBar = document.getElementById("progress-bar");
-
-function updateProgress() {
-  if (progress <= 100) {
-    let offset = 314 - (progress / 100) * 314;
-    progressBar.style.strokeDashoffset = offset;
-    progressBar.style.strokeOpacity = 1;
-    progress++;
-    setTimeout(updateProgress, 50);
-  }
-}
-
-updateProgress();
+document.addEventListener("DOMContentLoaded", () => {
+  console.log("Loading screen active");
+});
